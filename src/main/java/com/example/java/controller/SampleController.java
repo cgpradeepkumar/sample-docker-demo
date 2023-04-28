@@ -15,4 +15,9 @@ public class SampleController {
     public String getGreeting() {
         return "Hi user, I am Sample Docker Demo!";
     }
+
+    @GetMapping("/test-merge-demo")
+    public String getMergeGreeting() {
+        return "Hi user, I am Sample Merge Demo!";
+    }
 }
